@@ -6,7 +6,7 @@ class UsersRunner {
     
     @Karate.Test
     Karate testUsers() {
-        return Karate.run("post").relativeTo(getClass());
+        return Karate.run("getapi").relativeTo(getClass());
     }    
 
 }
